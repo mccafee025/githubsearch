@@ -12,7 +12,7 @@ export class SearchBarComponent implements OnInit {
   constructor() { }
 
   newUser() {
-        this.searchEmitter.emit(this.searchTerm);
+        this.searchEmiter.emit(this.searchTerm);
   }
 
   ngOnInit(): void {
